@@ -23,7 +23,7 @@ editing of Lua files and a lot of trial and error. This application was designed
 to facilitate it - you can start from scratch (or import an existing track) and
 edit everything visually.
 
-You can access it [here](http://uberwald-dev.net/automation-track-builder). Fellow
+You can access it [here](/automation-track-builder). Fellow
 forumite 07CobaltGirl made a [tutorial](http://automationgame.com/phpBB3/viewtopic.php?f=36&t=4179)
 that helps learning its functionality.
 
