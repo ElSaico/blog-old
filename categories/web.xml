@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Lines About Code (web)</title><link>http://bmarques.net/</link><description></description><atom:link href="http://bmarques.net/categories/web.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 28 Dec 2015 16:38:35 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Automation Track Builder</title><link>http://bmarques.net/posts/2014-08-06-automation-track-builder/</link><dc:creator>Bruno Marques</dc:creator><description>&lt;div&gt;&lt;p&gt;Time to talk about the first (and so far only) open-source project that I created
+and maintain consistently (yes, Kiwi Krossing is on hiatus - shame on me!) - the
+&lt;a href="http://github.com/ElSaico/automation-track-builder"&gt;Automation Track Builder&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;What&lt;/h3&gt;
+&lt;p&gt;This is an auxiliary web application for &lt;a href="http://www.automationgame.com"&gt;Automation&lt;/a&gt;,
+a “car company tycoon” game under development where you design cars and engines from scratch.&lt;br&gt;
+Currently, there are Multiplayer, Scenario and Sandbox modes available, and the finished version
+will present a Campaign mode &lt;em&gt;a la&lt;/em&gt; Detroit.&lt;/p&gt;
+&lt;p&gt;One of the car designer’s features is the possiblity of choosing a track and
+setting a lap on it. There are two available from the start, and more can be created
+and downloaded.&lt;br&gt;
+The process of track creation used to be somewhat cumbersome, involving manual
+editing of Lua files and a lot of trial and error. This application was designed
+to facilitate it - you can start from scratch (or import an existing track) and
+edit everything visually.&lt;/p&gt;
+&lt;p&gt;You can access it &lt;a href="http://uberwald-dev.net/automation-track-builder"&gt;here&lt;/a&gt;. Fellow
+forumite 07CobaltGirl made a &lt;a href="http://automationgame.com/phpBB3/viewtopic.php?f=36&amp;amp;t=4179"&gt;tutorial&lt;/a&gt;
+that helps learning its functionality.&lt;/p&gt;
+&lt;h3&gt;How&lt;/h3&gt;
+&lt;p&gt;This app was made possible thanks to several JavaScript libraries. In particular:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://angularjs.org"&gt;AngularJS&lt;/a&gt;, the main framework&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://fabricjs.com"&gt;Fabric.js&lt;/a&gt;, for drawing the track preview&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://oxyc.github.io/luaparse"&gt;luaparse&lt;/a&gt;, a JS parser for Lua source files - used to import existing track files&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/janl/mustache.js"&gt;mustache.js&lt;/a&gt;, a template system used to export the tracks to the Automation format&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Not to mention libraries such as &lt;a href="http://gruntjs.com/"&gt;Grunt&lt;/a&gt; and &lt;a href="http://bower.io/"&gt;Bower&lt;/a&gt;,
+which automate a significant chunk of the development process and make working with
+JavaScript much easier.&lt;br&gt;
+With their aid, web applications are very viable choices for portable development
+and smooth deployment.&lt;/p&gt;&lt;/div&gt;</description><category>angular.js</category><category>web</category><guid>http://bmarques.net/posts/2014-08-06-automation-track-builder/</guid><pubDate>Wed, 06 Aug 2014 17:40:46 GMT</pubDate></item></channel></rss>
