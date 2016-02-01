@@ -1,4 +1,4 @@
-Sitemap: http://bmarques.net/sitemapindex.xml
+Sitemap: https://bmarques.net/sitemapindex.xml
 
 User-Agent: *
 Host: bmarques.net
